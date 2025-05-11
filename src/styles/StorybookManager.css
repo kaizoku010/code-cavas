@@ -1,0 +1,169 @@
+.storybook-manager {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.storybook-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.storybook-header h4 {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.storybook-status {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.storybook-status-online {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.storybook-status-offline {
+  background-color: #fef2f2;
+  color: #991b1b;
+}
+
+.storybook-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.storybook-button {
+  background-color: #ff4785; /* Storybook pink */
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.storybook-button:hover {
+  background-color: #e5407b;
+}
+
+.storybook-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.storybook-link {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  color: #1ea7fd; /* Storybook blue */
+  border: 1px solid #1ea7fd;
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.storybook-link:hover {
+  background-color: #f0f9ff;
+}
+
+.storybook-error {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #fee2e2;
+  border: 1px solid #ef4444;
+  border-radius: var(--border-radius);
+  color: #b91c1c;
+}
+
+.storybook-save-status {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+}
+
+.storybook-save-status.success {
+  background-color: #dcfce7;
+  border: 1px solid #22c55e;
+  color: #166534;
+}
+
+.storybook-save-status.error {
+  background-color: #fee2e2;
+  border: 1px solid #ef4444;
+  color: #b91c1c;
+}
+
+.storybook-simulated {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.storybook-simulated code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.storybook-info {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #f0f9ff;
+  border: 1px solid #1ea7fd;
+  border-radius: var(--border-radius);
+}
+
+.storybook-info h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #1ea7fd;
+}
+
+.storybook-info p {
+  margin: 0.25rem 0;
+}
+
+.storybook-instructions {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(30, 167, 253, 0.3);
+}
+
+.storybook-instructions h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.storybook-instructions ol {
+  margin: 0.5rem 0 0 1.25rem;
+  padding: 0;
+}
+
+.storybook-instructions li {
+  margin-bottom: 0.5rem;
+}
+
+.storybook-instructions code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-family: monospace;
+}
