@@ -474,6 +474,7 @@ h1 {
       <header className="home-header">
         <h1>CodeCanvas</h1>
         <p>Design, build, and preview stunning UI components with HTML & CSS</p>
+        <p style={{fontSize: '0.75rem', color: '#a1a1aa'}}>By M. Dixon </p>
       </header>
 
       <div className="menu-bar">
