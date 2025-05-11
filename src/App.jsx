@@ -165,7 +165,7 @@ function App() {
   return (
     <div className="app-container">
       {currentPage === 'home' ? (
-        <HomeScreen onNavigate={navigateTo} />
+        <HomeScreen />
       ) : (
         <Generator />
       )}
